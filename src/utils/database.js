@@ -1,12 +1,12 @@
-const {Sequelize} = require('sequelize')
+const { Sequelize } = require('sequelize')
 
 const db = new Sequelize({
-    database:'todo',
-    username:'postgres',
-    host:'localhost',
-    port:'5432',
-    password:'root',
-    dialect:'postgres'
+    database: 'todo',
+    port: 5432,
+    host: 'localhost',
+    username: 'postgres',
+    password: 'Root',
+    dialect: 'postgres'
 });
 
 module.exports = db
