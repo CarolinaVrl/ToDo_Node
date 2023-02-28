@@ -1,0 +1,4 @@
+# Ignora la carpeta node_modules
+node_modules
+# borra la carpeta
+#git add y commit y push
